@@ -1,15 +1,13 @@
 import React from 'react'
-import VisibleTodoList from './containers/VisibleTodoList'
-import AddTodo from './containers/AddTodo'
-import Footer from './components/Footer'
+import InputDigits from './containers/InputDigits'
+import DisplayWords from './containers/DisplayWords'
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Shlappas Todo Template</h1>
-      <AddTodo />
-      <VisibleTodoList />
-      <Footer />
+      <h1>Numbers In Words</h1>
+      <InputDigits />
+      <DisplayWords />
     </div>
   )
 }
