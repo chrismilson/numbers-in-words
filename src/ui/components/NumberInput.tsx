@@ -2,6 +2,7 @@ import React from 'react'
 // import Button from './Button'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faBackspace } from '@fortawesome/free-solid-svg-icons'
+import './NumberInput.css'
 
 const NumberInput: React.FC<{
   currentValue: number
@@ -16,7 +17,7 @@ const NumberInput: React.FC<{
       value={`${currentValue}`}
       onChange={e => {
         const input = parseInt(e.target.value, 10)
-        onChange(input === NaN ? 0 : input)
+        onChange(isNaN(input) ? 0 : input)
       }}
     />
   )

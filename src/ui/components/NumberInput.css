@@ -1,0 +1,8 @@
+.NumberInput {
+  border: 1px dashed grey;
+  outline: none;
+  font-size: 1.5em;
+  text-align: center;
+  width: 70%;
+  flex: 0.2;
+}

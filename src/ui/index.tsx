@@ -1,6 +1,7 @@
 import React from 'react'
 import InputDigits from './containers/InputDigits'
 import DisplayWords from './containers/DisplayWords'
+import './App.css'
 
 export default function App() {
   return (
