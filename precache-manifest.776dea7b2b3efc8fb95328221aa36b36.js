@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd06988bbe423dca99d7ebed2b66e738",
+    "revision": "bffa54dba2fb1dbf17e498ac02c7b9da",
     "url": "/numbers-in-words/index.html"
   },
   {
-    "revision": "0e3ccdfa67ebdb06346e",
-    "url": "/numbers-in-words/static/css/main.b2c328c1.chunk.css"
+    "revision": "09d68f76187a634f6dd7",
+    "url": "/numbers-in-words/static/css/main.c685503a.chunk.css"
   },
   {
     "revision": "31b4507f4a3771c04c4d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numbers-in-words/static/js/2.f86fbfe1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e3ccdfa67ebdb06346e",
-    "url": "/numbers-in-words/static/js/main.3e783202.chunk.js"
+    "revision": "09d68f76187a634f6dd7",
+    "url": "/numbers-in-words/static/js/main.d0623841.chunk.js"
   },
   {
     "revision": "eddfe6e05de79e6d244a",
