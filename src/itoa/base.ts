@@ -34,7 +34,20 @@ export const TEN = [
   'ninety'
 ]
 
-export const POWER = ['', 'thousand', 'million', 'billion', 'trillion']
+export const POWER = [
+  '',
+  'thousand',
+  'million',
+  'billion',
+  'trillion',
+  'quadrillion',
+  'quintillion',
+  'sextillion',
+  'septillion',
+  'octillion',
+  'nonillion',
+  'decillion'
+]
 
 /**
  * A python style divmod method.
@@ -42,4 +55,4 @@ export const POWER = ['', 'thousand', 'million', 'billion', 'trillion']
  * @param n The numberator in the division
  * @param d The denominator in the division
  */
-export const divmod = (n: number, d: number) => [Math.floor(n / d), n % d]
+export const divmod = (n: bigint, d: bigint) => [n / d, n % d]

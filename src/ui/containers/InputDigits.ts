@@ -6,10 +6,8 @@ import { RootState } from '../../state/types/state'
 export default connect(
   (state: RootState) => ({ currentValue: state.target }),
   dispatch => ({
-    onChange: (value: number) => {
-      if (value >= 0 && value < 1e15) {
-        dispatch(setTarget(value))
-      }
+    onChange: (value: bigint) => {
+      dispatch(setTarget(value))
     }
   })
 )(NumberInput)

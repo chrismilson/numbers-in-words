@@ -5,8 +5,8 @@ import React from 'react'
 import './NumberInput.css'
 
 const NumberInput: React.FC<{
-  currentValue: number
-  onChange: (value: number) => void
+  currentValue: bigint
+  onChange: (value: bigint) => void
 }> = props => {
   const { currentValue, onChange } = props
 
@@ -16,8 +16,11 @@ const NumberInput: React.FC<{
       className="NumberInput"
       value={`${currentValue}`}
       onChange={e => {
-        const input = parseInt(e.target.value, 10)
-        onChange(isNaN(input) ? 0 : input)
+        const str = e.target.value.trim()
+        if (str.match(/^-?\d*$/)) {
+          const input = BigInt(str)
+          onChange(input)
+        }
       }}
     />
   )

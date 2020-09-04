@@ -5,7 +5,7 @@ export enum ActionType {
 export interface SetTargetAction {
   type: ActionType.SET_TARGET
   payload: {
-    value: number
+    value: bigint
   }
 }
 
