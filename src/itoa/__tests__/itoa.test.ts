@@ -11,5 +11,5 @@ it.each([
     'three hundred and ninety-eight billion six hundred and twenty-three million one hundred and twenty-three thousand nine hundred and eighty-six'
   ]
 ])('Gives the right string for each number', (number, words) => {
-  expect(itoa(number)).toBe(words)
+  expect(itoa(BigInt(number))).toBe(words)
 })
