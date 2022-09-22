@@ -3,4 +3,8 @@
  */
 export interface RootState {
   readonly target: bigint
+  readonly language?: {
+    name: string
+    max_value: bigint
+  }
 }
