@@ -1,4 +1,4 @@
-import { ActionType, SetTargetAction } from './types/actions'
+import { ActionType, SetTargetAction, SetLanguageAction } from './types/actions'
 
 export const setTarget = (value: bigint): SetTargetAction => ({
   type: ActionType.SET_TARGET,
@@ -9,4 +9,3 @@ export const setLanguage = (value: string): SetLanguageAction => ({
   type: ActionType.SET_LANGUAGE,
   payload: { value }
 })
-
