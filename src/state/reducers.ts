@@ -14,15 +14,18 @@ const target = (state = 0n, action: Action) => {
   }
 }
 
-const language = (state = "english", action: Action) => {
+const language = (state = undefined, action: Action) => {
   switch (action.type) {
     case ActionType.SET_LANGUAGE:
-      return action.payload.value
+      const name = action.payload.value
+      const maxValue = MAX_SAFE_NUMBER[name]
+      return { name, maxValue }
     default:
       return state
   }
 }
 
 export default combineReducers({
-  target
+  target,
+  language
 })
