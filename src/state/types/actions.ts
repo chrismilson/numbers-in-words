@@ -1,5 +1,5 @@
 export enum ActionType {
-  SET_TARGET = 'SET_TARGET'
+  SET_TARGET = 'SET_TARGET',
   SET_LANGUAGE = 'SET_LANGUAGE'
 }
 
