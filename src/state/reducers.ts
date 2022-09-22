@@ -14,6 +14,15 @@ const target = (state = 0n, action: Action) => {
   }
 }
 
+const language = (state = "english", action: Action) => {
+  switch (action.type) {
+    case ActionType.SET_LANGUAGE:
+      return action.payload.value
+    default:
+      return state
+  }
+}
+
 export default combineReducers({
   target
 })
