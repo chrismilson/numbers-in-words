@@ -1,52 +1,34 @@
-export const ONE = [
+export const SMALL = [
   '',
-  'one',
-  'two',
-  'three',
-  'four',
-  'five',
-  'six',
-  'seven',
-  'eight',
-  'nine',
-  'ten',
-  'eleven',
-  'twelve',
-  'thirteen',
-  'fourteen',
-  'fifteen',
-  'sixteen',
-  'seventeen',
-  'eighteen',
-  'nineteen'
+  'いち',
+  'に',
+  'さん',
+  'よん',
+  'ご',
+  'ろく',
+  'なな',
+  'はち',
+  'きゅう'
 ]
 
-export const TEN = [
+export const LARGE = [
   '',
-  '',
-  'twenty',
-  'thirty',
-  'forty',
-  'fifty',
-  'sixty',
-  'seventy',
-  'eighty',
-  'ninety'
-]
-
-export const POWER = [
-  '',
-  'thousand',
-  'million',
-  'billion',
-  'trillion',
-  'quadrillion',
-  'quintillion',
-  'sextillion',
-  'septillion',
-  'octillion',
-  'nonillion',
-  'decillion'
+  'まん',
+  'おく',
+  'ちょう',
+  'けい',
+  'がい',
+  'じょ',
+  'こう',
+  'かん',
+  'せい',
+  'さい',
+  'ごく',
+  'ごうがしゃ',
+  'あそうぎ',
+  'なゆた',
+  'ふかしぎ',
+  'むりょうたいそう'
 ]
 
 /**
